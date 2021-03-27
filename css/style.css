@@ -1,0 +1,66 @@
+/*Global/Core basic styling*/
+
+* {
+  margin: 0;
+  padding: 0;
+  /*helps the padding not add to the width of the box*/
+  box-sizing: border-box;
+}
+
+/*Main styling*/
+/*core elements*/
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /*Spacing in Between the Lines*/
+  line-height: 1.7em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  /*Top Bottom/Left Right*/
+  margin: 10px 0;
+}
+
+/*Navbar*/
+
+#navbar {
+  background-color: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+/*I always have to style the links individually*/
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
